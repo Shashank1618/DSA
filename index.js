@@ -1,7 +1,8 @@
-console.log("Hello World");
-console.log("Hello World"); //second time
-
-function main(){
-  return null;
+function sum(n){
+  let sum=0;
+  for(let i=1;i<=n;i++){
+    sum=sum+i;
+  }
+  return sum;
 }
-consoel.log(main());
+console.log(sum(100));
